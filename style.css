@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+#lifes {
+    height: 40px;
+    margin: 10px auto;
+  }
+
+.gamepad {
+  font-size: 4rem;
+  color:yellowgreen;
+  margin: 0 5px;
+}
+
+#guess {
+  width: 20%;
+  margin: 20px auto;
+  display: block;
+  font-size: 3rem;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+#message {
+  font-size: 2.2rem;
+  height: 40px;
+}
+
+button {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+button:hover {
+  background-color: greenyellow;
+  border: 5px solid greenyellow;
+  cursor: pointer;
+}
+
+button:disabled {
+    border: 5px solid #6f8693;
+    background-color: #6f8693;
+  }
